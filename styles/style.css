@@ -1,0 +1,94 @@
+.menu {
+  background-color: #778899;
+  padding: 15px;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background-color: #f8f8ff;
+  padding: 20px;
+}
+
+.box {
+  background-color: coral;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.margin-0  { margin: 0px; }
+.margin-10 { margin: 10px; }
+.margin-20 { margin: 20px; }
+
+.border-0  { border: 0px solid black; }
+.border-5  { border: 5px solid black; }
+.border-10 { border: 10px solid black; }
+
+.padding-0  { padding: 0px; }
+.padding-10 { padding: 10px; }
+.padding-20 { padding: 20px; }
+
+.creative-area {
+  padding: 30px;
+  border: 2px dashed #ccc;
+  margin-top: 20px;
+}
+
+.static-box {
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.relative-box {
+  position: relative;
+  background-color: #cce5ff;
+  padding: 30px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: coral;
+  color: white;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 100vh;
+    background-color: #778899;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #cd5c5c;
+  color: white;
+  padding: 15px;
+}
+
+main {
+    padding-bottom: 100px;
+}

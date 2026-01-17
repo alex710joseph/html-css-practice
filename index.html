@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="description about what will be found on the webpage, used for SEO"
+    />
+    <meta name="robots" content="index, follow" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <title>HTML+CSS+JS Practice</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Sample Webpage for Practicing HTML + CSS</h1>
+
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          The Sample Webpage contains sections regarding SEO, Useful HTML tags,
+          Grid using only div and span elements and Simple demo of various box
+          models.
+        </p>
+      </section>
+
+      <section>
+        <h2>SEO</h2>
+        <p>
+          SEO, or search engine optimization, is the practice of making your
+          website easier for search engines to read and interpret, while also
+          helping people discover your site and decide if it’s worth clicking on
+          when it appears in search results. It involves things like using clear
+          page titles, relevant keywords, and well-structured content so both
+          search engines and users can quickly understand what your page is
+          about.
+        </p>
+        <br />
+        <p>
+          Some of the most important header tags you should use on your pages
+          for SEO include:
+          <li>
+            The title tag under the head tag, conveying the topic what will be
+            found on the page.
+          </li>
+          <li>
+            meta tags such as description and robots help seo understand what is
+            on the page and let crawlers modify their behaviour on the page
+            respectively
+          </li>
+          <li>
+            h1 – The main heading of the page, describing the page’s primary
+            topic and appears once.
+          </li>
+          <li>
+            h2 – Used for major sections under the main heading. Helps organize
+            content into logical parts.
+          </li>
+          <li>h3 - Used to divide further the h2 content.</li>
+          <li>h4 to h6 - Used for more detailed and deeper structure.</li>
+        </p>
+      </section>
+
+      <section>
+        <h2>Useful HTML Tags</h2>
+        <p>Below is a list of the 10 most useful tags for me in HTML</p>
+        <ol>
+          <li>p tag - use it very often to quickly add inline content</li>
+          <li>div tag - group styling elements with CSS</li>
+          <li>a tag - creates hyperlinks</li>
+          <li>img tag - add images to html page</li>
+          <li>span tag - used to style something inside of a paragraph</li>
+          <li>h1–h6 tags - used to create headings of different sizes</li>
+          <li>ul tag - used to create unordered (bulleted) lists</li>
+          <li>li tag - represents individual items inside a list</li>
+          <li>input tag - used to take user input in forms</li>
+          <li>button tag - creates clickable buttons</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Grid</h2>
+        <p>A grid using only div and span elements.</p>
+        <div>
+          <div>
+            <span>cell_11</span>
+            <span>cell_12</span>
+            <span>cell_13</span>
+          </div>
+
+          <div>
+            <span>cell_21</span>
+            <span>cell_22</span>
+            <span>cell_23</span>
+          </div>
+
+          <div>
+            <span>cell_31</span>
+            <span>cell_32</span>
+            <span>cell_33</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Gallery showcasing various box models</h2>
+        <div class="gallery">
+          <div class="box margin-0">Margin 0px</div>
+          <div class="box margin-10">Margin 10px</div>
+          <div class="box margin-20">Margin 20px</div>
+
+          <div class="box border-1">Border 1px</div>
+          <div class="box border-5">Border 5px</div>
+          <div class="box border-10">Border 10px</div>
+
+          <div class="box padding-0">Padding 0px</div>
+          <div class="box padding-10">Padding 10px</div>
+          <div class="box padding-20">Padding 20px</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Exploring various font sizes</h2>
+        <ol>
+          <li>
+            <div style="font-size: 18px">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+          <li>
+            <div style="font-size: 1.5em">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+          <li>
+            <div style="font-size: 1.5rem">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+          <li>
+            <div style="font-size: 18pt">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+          <li>
+            <div style="font-size: 180%">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+          <li>
+            <div style="font-size: 2vw">
+              Sample text to demo various font sizes.
+            </div>
+          </li>
+        </ol>
+        <h3>Explanations for various sizings</h3>
+        <ol>
+          <li><i>px</i> is used when exact sizing is required</li>
+          <li>
+            <i>em</i> is used when sizing should be relative to the parent
+            element, such as nested components that need to scale proportionally
+          </li>
+          <li>
+            <i>rem</i> (root em) scales relative to the HTML root's font size,
+            giving consistent, predictable sizing
+          </li>
+          <li>
+            <i>pt</i> is used for print stylesheets and documents meant for
+            printing, as it's based on physical measurements
+          </li>
+          <li>
+            <i>%</i> is used for proportional adjustments relative to the parent
+            element, intuitive for quick scaling
+          </li>
+          <li>
+            <i>vw</i> is used when sizing relative to the total width of the
+            visible browser screen
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Different kinds of Positioning</h2>
+        <div class="creative-area">
+          <div class="static-box">Static box</div>
+
+          <div class="relative-box">
+            Relative box
+            <div class="absolute-box">Absolute inside</div>
+          </div>
+
+          <div class="fixed-box">Fixed box</div>
+        </div>
+
+        <h3>When to use the various positions</h3>
+        <ol>
+          <li>
+            <i>static</i> is used when elements should follow the normal
+            document flow and no special positioning is needed.
+          </li>
+          <li>
+            <i>relative</i> is used when an element needs small positional adjustments while still keeping its place in the layout.
+          </li>
+          <li>
+            <i>absolute</i> is used when you want the element to be not in the normal flow, instead in a separate layer; very useful for popup boxes, control menus etc.
+          </li>
+          <li>
+            <i>fixed</i> is used when an element should stay in the same
+            position on the screen even when the page is scrolled, such as a fixed button.
+          </li>
+          <li>
+            <i>sticky</i> is used when an element behaves like normal content at first but becomes fixed once a certain scroll position is reached (the footer uses sticky positioning here).
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="sticky-box">
+      <p>&copy; Sample Webpage. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
